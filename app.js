@@ -9,5 +9,5 @@ const chalk = require("chalk");
 
 // console.log(chalk.black.bgBlue("Hello World!"));
 const nama = "Puteri Hsunul";
-const pesan = chalk`Lorem ipsum dolor {bgCyan.white sit amet} consectetur {bgYellow.italic.black adipisicing} elit. Nama saya : ${nama}`;
+const pesan = chalk`Lorem ipsum dolor {bgCyan.white.bold sit amet} consectetur {bgYellow.italic.black adipisicing} elit. Nama saya : ${nama}`;
 console.log(pesan);
